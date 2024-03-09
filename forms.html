@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/forms.css">
+	<title>forms</title>
+</head>
+<body>
+<p>ми вивчаемо роботу с формами</p>
+<form name="form">
+<input type="text" name="text" class="in1" >
+<input type="text" name="text1" size="20" maxlength="50" value="видить текст" class="in1">
+<input type="text" name="text2" size="30" maxlength="50" value="видить дани" disabled class="in1">
+<input type="text" name="text3" size="30" maxlength="50" value="информация тики читати" readonly class="in1">
+<p>виберить свою стать</p>
+<input type="radio" name="gender" class="in2" value="male"><span class="s1">чоловича</span>
+<input type="radio" name="gender" class="in2" value="male"><span class="s1">жиноча</span>
+<br>
+<p>яку мови ви хочете вивчати</p>
+<input type="checkbox" name="lang1" value="en" class="in3"><span class="s2">Англиська</span>
+<input type="checkbox" name="lang2" value="sp" class="in3"><span class="s2">испанська</span>
+<input type="checkbox" name="lang3" value="fr" class="in3"><span class="s2">французька</span>
+<input type="checkbox" name="lang4" value="ja" checked class="in3"><span class="s2">японська</span>
+<br>
+<input type="submit" name="submit" value="пидтвердити">
+<input type="reset" name="reset">
+<input type="button" name="button">
+<br>
+<input type="file" name="download">
+<textarea cols="20" rows="3" wrap="off"></textarea>
+<textarea cols="30" rows="5" wrap="virtual"></textarea>
+<textarea cols="50" rows="7" wrap="physical"></textarea>
+<select>
+	<option value="en">Англиська</option>
+	<option value="fr">Французька</option>
+	<option value="sp">Испаньська</option>
+	<option value="ja">Японська</option>
+
+</select>
+<select size="2">
+	<option value="en" selected>Англиська</option>
+	<option value="fr">Французька</option>
+	<option value="sp">Испаньська</option>
+	<option value="ja">Японська</option>
+
+</select>
+<select size="2" multiple>
+	<option value="en" selected>Англиська</option>
+	<option value="fr">Французька</option>
+	<option value="sp">Испаньська</option>
+	<option value="ja">Японська</option>
+
+</select>
+</form>
+</body>
+</html>
