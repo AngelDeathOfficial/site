@@ -2892,3 +2892,20 @@ body {
   width: calc(100% - 10px);
   height: calc(100% + 10px);
 }
+.qq {
+        text-align: center;
+    }
+
+    .entry-title {
+        text-align: center;
+    }
+
+    lord-icon {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px; /* Змініть відступ, якщо потрібно */
+        src="https://cdn.lordicon.com/wleoetna.json"
+        trigger="hover"
+        style="width:100px;height:100px">
+    }
+
